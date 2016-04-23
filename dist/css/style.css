@@ -1,0 +1,207 @@
+.transition,
+.main-slider .bx-viewport .caption a,
+.main-slider .bx-viewport .caption a i,
+.main-slider .bx-controls-direction a,
+header .main-ul li a {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.block {
+  float: left;
+  width: 100%;
+}
+.inblock {
+  display: inline-block;
+  width: 100%;
+}
+* {
+  outline: none !important;
+}
+body {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  overflow-x: hidden ;
+  font-family: "Open Sans", arial, sans-serifial;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.collapse {
+  padding: 0px;
+}
+.slider-area {
+  bottom: 0;
+  float: left;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transition: left 0.4s ease 0s,top 0.4s ease 0s;
+}
+.main-slider {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  background: #aaa;
+}
+.main-slider img {
+  width: 100%;
+}
+.main-slider .bx-viewport {
+  border: medium none;
+  box-shadow: 0 0 0;
+  left: 0;
+}
+.main-slider .bx-viewport .caption {
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  width: 100%;
+  z-index: 99;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.main-slider .bx-viewport .caption span {
+  color: #fff;
+  font-size: 50px;
+  position: relative;
+  z-index: 99999999;
+  line-height: 1.16;
+}
+.main-slider .bx-viewport .caption span b {
+  color: #10C45C;
+}
+.main-slider .bx-viewport .caption a {
+  background: #fff none repeat scroll 0 0;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 45px;
+  margin-top: 23px;
+  padding: 10px 16px;
+  position: relative;
+}
+.main-slider .bx-viewport .caption a i {
+  border: 3px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  padding: 9px 10px;
+  position: absolute;
+  right: 100%;
+  top: 0;
+}
+.main-slider .bx-viewport .caption a:hover {
+  background: #10C45C;
+  color: #000;
+}
+.main-slider .bx-viewport .caption a:hover i {
+  border: 3px solid #10C45C;
+  color: #10C45C;
+}
+.main-slider .bx-wrapper .bx-viewport {
+  background: #52504f none repeat scroll 0 0;
+}
+.main-slider .bx-controls-direction a {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 52px;
+  height: 80px;
+  text-align: center;
+  text-indent: 0;
+  width: 73px;
+}
+.main-slider .bx-controls-direction a:hover {
+  background: #fff;
+  color: #000;
+}
+.header-content {
+  background: transparent none repeat scroll 0 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.header-content .top-header {
+  background: #333333 none repeat scroll 0 0;
+  padding: 10px 0;
+  width: 100%;
+}
+.header-content .top-header .top-header-info {
+  text-align: right;
+}
+.header-content .top-header .top-header-info p {
+  color: #bababa;
+  display: inline-block;
+  font-size: 13px;
+  margin: 0 26px 0 0;
+}
+.header-content .top-header .top-header-info p i {
+  margin-right: 7px;
+}
+.header-content .top-header .top-header-info a {
+  color: #d9d9d9;
+  font-size: 13px;
+  margin-left: 11px;
+  text-transform: uppercase;
+}
+header .navbar {
+  border: 0 none;
+  margin: 0;
+  padding: 9px 0;
+}
+header .navbar .navbar-header {
+  color: #fff;
+}
+header .navbar .navbar-brand {
+  color: #fff;
+  height: initial;
+  padding: 8px;
+  width: 270px;
+}
+header .main-ul {
+  float: right;
+  margin-top: 7px;
+}
+header .main-ul li {
+  padding: 9px 0;
+}
+header .main-ul li.active a {
+  border-bottom: 3px solid #10c45c;
+}
+header .main-ul li.active a:before {
+  border-color: #10c45c transparent;
+  border-style: none solid solid;
+  border-width: 5px;
+  bottom: 0;
+  content: "";
+  left: 50%;
+  margin-left: -5px;
+  position: absolute;
+}
+header .main-ul li a {
+  color: #fff;
+  font-weight: 700;
+  margin-left: 16px;
+  margin-right: 4px;
+  padding: 12px 7px;
+  text-transform: uppercase;
+}
+header .main-ul li a:hover,
+header .main-ul li a:focus {
+  border-bottom: 3px solid #10c45c;
+  background-color: transparent;
+}
