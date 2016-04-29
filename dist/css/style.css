@@ -243,7 +243,7 @@ header .main-ul li a:focus {
 }
 .courses-list {
   float: left;
-  padding: 30px 0;
+  padding: 40px 0 50px;
   text-align: center;
   width: 100%;
 }
@@ -272,4 +272,75 @@ header .main-ul li a:focus {
   display: inline-block;
   font-size: 13px;
   margin: 2px 12px;
+}
+.courses-list .courses-list-item .item-footer {
+  border-top: 1px solid #d3d3d3;
+  margin-top: 6px;
+  padding: 6px 12px;
+}
+.courses-list .courses-list-item .item-footer a {
+  color: #1d8fa9;
+  font-size: 13px;
+}
+.courses-list .courses-list-item .item-footer span {
+  float: right;
+  margin: 0;
+}
+.courses-list .courses-list-item .item-footer span i {
+  margin-right: 4px;
+}
+.testimonials {
+  background: black url("../images/test-bg.jpg") repeat scroll center top / cover;
+  padding: 80px 0;
+  text-align: center;
+}
+.testimonials .testimonial-info {
+  color: #fff;
+  display: table;
+  margin: 0 auto;
+  max-width: 700px;
+  width: 100%;
+}
+.testimonials .testimonial-info h3 {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.testimonials .testimonial-info h5 {
+  color: #c7c7c7;
+  margin: -2px 0 20px;
+  padding-bottom: 14px;
+  position: relative;
+}
+.testimonials .testimonial-info h5:before {
+  background: #169eb7 none repeat scroll 0 0;
+  content: "";
+  height: 3px;
+  left: 50%;
+  margin-left: -45px;
+  position: absolute;
+  top: 100%;
+  width: 90px;
+}
+.testimonials .testimonial-info img {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 130px;
+  margin-bottom: 11px;
+  margin-top: 22px;
+  width: 130px;
+}
+.testimonials .testimonial-info h4 {
+  font-size: 25px;
+  margin-bottom: 4px;
+}
+.testimonials .testimonial-info span {
+  color: #c7c7c7;
+  display: inline-block;
+  font-size: 13px;
+  margin-bottom: 11px;
+}
+.testimonials .testimonial-info p {
+  font-size: 13px;
+  line-height: 1.8;
 }
