@@ -217,6 +217,10 @@ header .main-ul li a:focus {
   height: 240px;
   padding: 20px;
   width: 25%;
+  transition: all 0.3s ease 0s;
+}
+.top-serv .top-serv-box:hover {
+  transform: translate(0px, -26px);
 }
 .top-serv .top-serv-box.cl-green {
   background: #10C45C;
@@ -255,6 +259,7 @@ header .main-ul li a:focus {
 .courses-list .courses-list-item {
   border: 1px solid #dddddd;
   float: left;
+  overflow: hidden;
   text-align: left;
   width: 100%;
 }
@@ -281,6 +286,31 @@ header .main-ul li a:focus {
 .courses-list .courses-list-item .item-footer a {
   color: #1d8fa9;
   font-size: 13px;
+  position: relative;
+  z-index: 11;
+}
+.courses-list .courses-list-item .item-footer a:before {
+  background: #1d8fa9 none repeat scroll 0 0;
+  content: "";
+  height: 32px;
+  left: -12px;
+  position: absolute;
+  top: -7px;
+  width: 95px;
+  z-index: -1;
+  transform: translate(-96px, 0px);
+  transition: all 0.3s ease 0s;
+}
+.courses-list .courses-list-item .item-footer a:after {
+  border-color: transparent #1d8fa9;
+  border-style: solid;
+  border-width: 9px 0 9px 9px;
+  content: "";
+  left: 130%;
+  position: absolute;
+  top: 0;
+  transform: translate(-96px, 0px);
+  transition: all 0.3s ease 0s;
 }
 .courses-list .courses-list-item .item-footer span {
   float: right;
@@ -289,9 +319,16 @@ header .main-ul li a:focus {
 .courses-list .courses-list-item .item-footer span i {
   margin-right: 4px;
 }
+.courses-list .courses-list-item:hover a:before,
+.courses-list .courses-list-item:hover a:after {
+  transform: translate(0px, 0px);
+}
+.courses-list .courses-list-item:hover a {
+  color: #fff;
+}
 .testimonials {
   background: black url("../images/test-bg.jpg") repeat scroll center top / cover;
-  padding: 80px 0;
+  padding: 50px 0;
   text-align: center;
 }
 .testimonials .testimonial-info {
