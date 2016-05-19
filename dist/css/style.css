@@ -369,8 +369,7 @@ header .main-ul li a:focus {
   border: 2px solid #fff;
   border-radius: 50%;
   height: 130px;
-  margin-bottom: 11px;
-  margin-top: 22px;
+  margin: 22px auto 11px;
   width: 130px;
 }
 .testimonials .testimonial-info h4 {
@@ -386,6 +385,17 @@ header .main-ul li a:focus {
 .testimonials .testimonial-info p {
   font-size: 13px;
   line-height: 1.8;
+}
+.testimonials .testimonial-info .bx-pager {
+  width: 100% !important;
+  text-align: center !important;
+}
+.testimonials .testimonial-info .bx-pager a {
+  color: red;
+}
+.testimonials .testimonial-info .bx-pager a:hover,
+.testimonials .testimonial-info .bx-pager a.active {
+  background: #1D8FA9;
 }
 .events {
   padding: 40px 0;

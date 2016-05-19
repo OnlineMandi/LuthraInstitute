@@ -372,9 +372,9 @@ header{
       border: 2px solid #fff;
       border-radius: 50%;
       height: 130px;
-      margin-bottom: 11px;
-      margin-top: 22px;
+      margin: 22px auto 11px;
       width: 130px;
+
     }
     h4{
       font-size: 25px;
@@ -389,6 +389,16 @@ header{
     p{
       font-size: 13px;
       line-height: 1.8;
+    }
+    .bx-pager {
+      width:100% !important;
+      text-align: center !important;
+      a{
+        color:red;
+        &:hover,&.active{
+          background: #1D8FA9;
+        }
+      }
     }
   }
 }

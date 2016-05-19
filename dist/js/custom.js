@@ -8,7 +8,15 @@ $(document).ready(function(){
 
    var winwid = window.innerWidth;
 
-   $('.bxslider').bxSlider({
+
+  $('.clview').bxSlider({
+    auto: true,
+    autoControls: true,
+    pager:true
+  });
+
+
+ $('.bxslider').bxSlider({
     auto: false,
     autoControls: false,
     pager:false
