@@ -436,7 +436,6 @@ header .main-ul li a:focus {
 }
 .events .event-item .event-item-rightinfo {
   float: left;
-  height: 150px;
   padding-left: 70px;
   width: 100%;
 }
@@ -505,6 +504,9 @@ header .main-ul li a:focus {
   width: 100%;
 }
 .learn img {
+  display: table;
+  margin: 0 auto;
+  max-width: 380px;
   width: 100%;
 }
 .learn .learn-item {
@@ -672,4 +674,97 @@ footer .copy {
   margin-top: 30px;
   padding-top: 13px;
   width: 100%;
+}
+@media (min-width: 768px) {
+  header .navbar .navbar-brand {
+    width: 300px;
+  }
+  header .main-ul {
+    margin-top: 0;
+  }
+  .main-slider .bx-viewport .caption span {
+    font-size: 36px;
+  }
+  .main-slider .bx-viewport .caption a {
+    font-size: 15px;
+    padding: 8px 14px;
+  }
+  .main-slider .bx-viewport .caption a i {
+    font-size: 17px;
+    padding: 7px 9px;
+  }
+  .top-serv .top-serv-box h4 {
+    font-size: 18px;
+  }
+  .top-serv .top-serv-box i {
+    font-size: 38px;
+  }
+  .top-serv .top-serv-box p {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+  .top-serv {
+    margin-top: 35px;
+  }
+  .courses-list .courses-list-item {
+    margin-bottom: 30px;
+  }
+  .gray-box .sub-form input {
+    width: 242px;
+  }
+  .gray-box .sub-form img {
+    margin-bottom: 28px;
+  }
+  footer .footer-item {
+    min-height: 233px;
+  }
+}
+@media (min-width: 992px) {
+  .top-serv {
+    margin-top: -100px;
+  }
+  .courses-list .courses-list-item {
+    margin-bottom: 0;
+  }
+  .gray-box .sub-form input {
+    width: 288px;
+  }
+  .gray-box .sub-form img {
+    margin-bottom: 0;
+  }
+  footer .footer-item {
+    min-height: inherit;
+  }
+}
+@media (min-width: 1200px) {
+  header .navbar .navbar-brand {
+    width: 350px;
+  }
+  header .main-ul {
+    margin-top: 7px;
+  }
+  .main-slider .bx-viewport .caption span {
+    font-size: 50px;
+  }
+  .main-slider .bx-viewport .caption a {
+    font-size: 17px;
+    padding: 10px 16px;
+  }
+  .main-slider .bx-viewport .caption a i {
+    font-size: 20px;
+    padding: 9px 10px;
+  }
+  .top-serv .top-serv-box h4 {
+    font-size: 20px;
+  }
+  .top-serv .top-serv-box i {
+    font-size: 50px;
+  }
+  .top-serv .top-serv-box p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .top-serv {
+    margin-top: -114px;
+  }
 }
